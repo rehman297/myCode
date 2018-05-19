@@ -35,9 +35,10 @@
 	</dependency>
     
     <dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.2</version>
-</dependency>
+    	<groupId>com.relevantcodes</groupId>
+    	<artifactId>extentreports</artifactId>
+    	<version>2.41.2</version>
+	</dependency>
+	
   </dependencies>
 </project>
