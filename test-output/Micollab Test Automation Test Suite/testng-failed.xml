@@ -2,17 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Micollab Test Automation Test Suite]">
   <listeners>
-    <listener class-name="com.micollab.qa.extentReports.ExtentReporterNG"/>
+    <listener class-name="apitestutils.extentReports.ExtentReporterNG"/>
   </listeners>
   <test name="Micollab Test Cases(failed)">
     <classes>
-      <class name="com.micollab.qa.testcases.LoginPageTest">
+      <class name="BroadcastApiTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="LoginUserPortal"/>
         </methods>
-      </class> <!-- com.micollab.qa.testcases.LoginPageTest -->
+      </class> <!-- BroadcastApiTest -->
     </classes>
   </test> <!-- Micollab Test Cases(failed) -->
 </suite> <!-- Failed suite [Micollab Test Automation Test Suite] -->
